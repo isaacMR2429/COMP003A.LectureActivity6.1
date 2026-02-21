@@ -8,6 +8,10 @@
             Student student2 = new Student("Jordan", 22);
             student1.DisplayInfo();
             student2.DisplayInfo();
+
+            student1.Age = 100;
+            student1.DisplayInfo();
+            student2.DisplayInfo();
         }
     }
 }
