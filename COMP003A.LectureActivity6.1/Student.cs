@@ -16,6 +16,9 @@ namespace COMP003A.LectureActivity6._1
             Name = name;
             Age = age;
         }
-
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"Name is: {Name}, Age is: {Age}");
+        }
     }
 }
