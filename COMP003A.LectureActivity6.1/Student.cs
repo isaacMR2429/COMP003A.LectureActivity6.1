@@ -8,7 +8,10 @@ namespace COMP003A.LectureActivity6._1
 {
     public class Student
     {
-       
+        public string Name;
+        public int Age;
+
+        
 
     }
 }
