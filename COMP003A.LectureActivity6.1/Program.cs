@@ -14,6 +14,11 @@
             student1.Age = 100;
             student1.DisplayInfo();
             student2.DisplayInfo();
+
+            //Part F
+            // 1. Each Student object has its own data, because each object stores its own set of values.
+            // 2. Main doesn't need to know how DisplayInfo works, because that logic stays inside the Student class
+            // 3. This shows encapsulation, because the object handles its own data and methods, and the Main just uses it.
         }
     }
 }
