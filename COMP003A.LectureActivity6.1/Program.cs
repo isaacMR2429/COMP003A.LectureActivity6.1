@@ -9,6 +9,8 @@
             student1.DisplayInfo();
             student2.DisplayInfo();
 
+            Console.WriteLine();
+
             student1.Age = 100;
             student1.DisplayInfo();
             student2.DisplayInfo();
